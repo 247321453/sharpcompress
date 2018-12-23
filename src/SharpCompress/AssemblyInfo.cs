@@ -4,9 +4,11 @@ using System.Runtime.CompilerServices;
 
 [assembly: AssemblyTitle("SharpCompress")]
 [assembly: AssemblyProduct("SharpCompress")]
+[assembly: AssemblyDescription("SharpCompress is a compression library for NET Standard 1.0 that can unrar, decompress 7zip, decompress xz, zip/unzip, tar/untar lzip/unlzip, bzip2/unbzip2 and gzip/ungzip with forward-only reading and file random access APIs. Write support for zip/tar/bzip2/gzip is implemented.")]
 [assembly: InternalsVisibleTo("SharpCompress.Test" + SharpCompress.AssemblyInfo.PublicKeySuffix)]
 [assembly: InternalsVisibleTo("SharpCompress.Test.Portable"  + SharpCompress.AssemblyInfo.PublicKeySuffix)]
 [assembly: CLSCompliant(true)]
+[assembly: AssemblyVersion("1.0.0.1")]
 
 namespace SharpCompress
 {
